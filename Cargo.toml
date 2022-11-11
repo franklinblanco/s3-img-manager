@@ -1,0 +1,18 @@
+[package]
+name = "s3-manager"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+aws-config = "0.51.0"
+aws-sdk-s3 = "0.21.0"
+
+rand = "0.8.5"
+dotenv = "0.15.0"
+image-base64 = "0.1"
+
+image = "0.24.4" # image processing
+css-color-parser = "0.1.2" # colors

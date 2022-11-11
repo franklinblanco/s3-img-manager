@@ -15,3 +15,8 @@ let result: Result<String, _> = upload_image_in_base64(&client, "base64 string g
 // or with a random name
 let result: Result<String, _> = upload_image_in_base64(&client, "base64 string goes here", None).await;
 ```
+
+#### Import like this:
+```toml
+s3-manager = {git = "https://github.com/franklinblanco/s3-img-manager.git"}
+```
